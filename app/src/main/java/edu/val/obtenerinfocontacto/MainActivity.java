@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
             Log.d("ETIQUETA_LOG" , "Número del contacto = " + numero);
             Log.d("ETIQUETA_LOG" , "Nombre del contacto = " + nombre);
         }
+        cursor.close();
 
     }
 }
